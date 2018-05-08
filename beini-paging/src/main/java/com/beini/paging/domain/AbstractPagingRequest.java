@@ -8,8 +8,7 @@ public abstract class AbstractPagingRequest implements Pagingable, Serializable 
 	private final int size;
 
 	/**
-	 * Creates a new {@link AbstractPageRequest}. Pages are zero indexed, thus
-	 * providing 0 for {@code page} will return the first page.
+	 * 构造最基本的分页信息
 	 * 
 	 * @param page
 	 *            必须大于等于0
